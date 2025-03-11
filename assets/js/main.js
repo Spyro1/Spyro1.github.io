@@ -6,6 +6,26 @@
 * License: https://bootstrapmade.com/license/
 */
 
+
+function calculateAge(birthdate) {
+  const birth = new Date(birthdate);
+  const today = new Date();
+  let age = today.getFullYear() - birth.getFullYear();
+  const monthDiff = today.getMonth() - birth.getMonth();
+  const dayDiff = today.getDate() - birth.getDate();
+
+  if (monthDiff < 0 || (monthDiff === 0 && dayDiff < 0)) {
+      age--; // Adjust if birthday hasn't occurred yet this year
+  }
+
+  return age;
+}
+let age = calculateAge('2003-10-03');
+
+document.getElementById('ageSpan').textContent = age;
+document.getElementById('ageSpan2').textContent = age;
+
+
 (function() {
   "use strict";
 
