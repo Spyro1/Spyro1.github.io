@@ -276,14 +276,29 @@ h6 {
   display: block;
 }
 
-/* .navmenu li a.download {
-  display: none;
+#download_cv {
+  /* position: relative; */
+  margin: 0;
+  color: var(--contrast-color);
 }
 
-.navmenu li:hover>a span a.download {
-  display: block;
-} */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  left: 60px; /*Igazítsd a megfelelő helyre*/
+  top: 0;
+  /* background: var(--nav-hover-color); */
+  border-radius: 10px;
+  padding: 5px 10px;
+}
 
+/* .dropdown-content li {
+  margin-bottom: 5px;
+  } */
+  
+  #download_cv:hover .dropdown-content {
+  display: flex;
+}
 
 /*--------------------------------------------------------------
 # Global Footer
