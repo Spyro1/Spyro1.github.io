@@ -276,6 +276,15 @@ h6 {
   display: block;
 }
 
+/* .navmenu li a.download {
+  display: none;
+}
+
+.navmenu li:hover>a span a.download {
+  display: block;
+} */
+
+
 /*--------------------------------------------------------------
 # Global Footer
 --------------------------------------------------------------*/
