@@ -41,6 +41,11 @@
   "about_meta_description": "Learn more about Marton Szenes, a dedicated computer science student and full-stack developer",
   "about_hero_title": "About Me",
   "about_hero_description": "Passionate Computer Science Student & Full-Stack Developer",
+  "years_coding": "Years Coding",
+  "projects_completed": "Projects Completed",
+  "technologies": "Technologies",
+  "currently_studying": "Currently Studying",
+  "bme_computer_science": "BME Computer Science",
   "biography_title": "Biography",
   "biography_p1": "I am a dedicated and logic-oriented computer science student currently in my second year at Budapest University of Technology and Economics (BME), pursuing a Bachelor's degree in Computer Science Engineering.",
   "biography_p2": "I have a genuine passion for dissecting intricate problems—spending hours pondering complex challenges that push my intellectual limits. Although these endeavors can be mentally demanding, the thrill of arriving at an elegant solution is incredibly rewarding.",
@@ -91,5 +96,6 @@
   "project_sprinkle_full_description": "An innovative IoT solution for automated garden irrigation. Features real-time clock scheduling, TFT display interface for easy configuration, soil moisture sensors for intelligent watering decisions, and weather-responsive controls. Perfect for maintaining optimal garden conditions autonomously.",
   "project_luxus_full_description": "A professional, responsive website designed for a financial expert. Features modern design principles, smooth user experience, contact forms with backend processing, and SEO optimization. Built with emphasis on performance and cross-browser compatibility.",
   "interested_in_collaboration": "Interested in Collaboration?",
-  "projects_contact_description": "I'm always excited to work on new projects and challenges. Let's discuss your ideas!"
+  "projects_contact_description": "I'm always excited to work on new projects and challenges. Let's discuss your ideas!",
+  "old_portfolio": "View Old Portfolio"
 }

@@ -329,6 +329,50 @@ html {
   font-size: 24px;
 }
 
+/* Footer responsive styles */
+@media (max-width: 768px) {
+  .footer__inner {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .footer__header {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .footer__email {
+    word-break: break-all;
+    font-size: 14px;
+  }
+
+  .footer__title {
+    font-size: 20px;
+  }
+
+  .footer__list {
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer__inner {
+    gap: 16px;
+  }
+
+  .footer__header {
+    gap: 12px;
+  }
+
+  .footer__email {
+    font-size: 12px;
+  }
+
+  .footer__title {
+    font-size: 18px;
+  }
+}
+
 .button {
   display: inline-block;
   padding: 8px 16px;
@@ -561,6 +605,17 @@ html {
   * {
     max-width: 100%;
     box-sizing: border-box;
+  }
+
+  /* Additional footer fixes for small screens */
+  .footer {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  .footer__copyright {
+    font-size: 12px;
+    padding: 0 8px;
   }
 }
 

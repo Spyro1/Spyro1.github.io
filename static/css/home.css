@@ -75,6 +75,43 @@
   filter: brightness(0) invert(1);
 }
 
+/* Contacts responsive styles */
+@media (max-width: 768px) {
+  .contacts__content {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .contacts__media {
+    padding: 12px;
+  }
+
+  .contact {
+    flex-direction: row;
+    gap: 8px;
+    text-align: left;
+  }
+
+  .contact__name {
+    word-break: break-all;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contacts__content {
+    gap: 16px;
+  }
+
+  .contacts__media {
+    padding: 8px;
+  }
+
+  .contact__name {
+    font-size: 12px;
+  }
+}
+
 .hero {
   display: flex;
   justify-content: space-between;
@@ -253,7 +290,6 @@
 @media (max-width: 768px) {
   .hero {
     flex-direction: column;
-    text-align: center;
     gap: 24px;
   }
 
