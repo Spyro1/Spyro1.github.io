@@ -23,6 +23,19 @@ function setLanguage(lang) {
           }
         }
       });
+
+      // Update CV download links based on language
+      const cvLinks = document.querySelectorAll('a[download="Marton_Szenes_CV.pdf"]');
+      cvLinks.forEach(link => {
+        if (lang === 'hu') {
+          link.href = './static/cv/Szenes Márton - CV HU.pdf';
+          // link.download = 'Szenes_Marton_CV_HU.pdf';
+        } else {
+          link.href = './static/cv/Szenes Márton - CV EN.pdf';
+          // link.download = 'Marton_Szenes_CV.pdf';
+        }
+      });
+
       document.documentElement.lang = lang;
       localStorage.setItem("language", lang);   // Save selected language
       label.textContent = lang;                 // Update dropdown label
