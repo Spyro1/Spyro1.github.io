@@ -300,14 +300,10 @@
 
 .detailed-skills__content {
     margin-top: 3rem;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
-    align-items: stretch;
-    align-content: flex-start;
-    max-height: 800px;
-    overflow: visible;
+    align-items: start;
 }
 
 .skill-category {
@@ -316,10 +312,9 @@
     background: none;
     padding: 1.5rem;
     transition: none;
-    width: calc(50% - 0.2rem);
+    width: 100%;
     min-width: 0;
     margin-bottom: 0;
-    flex-shrink: 0;
 }
 
 .skill-category:hover {
@@ -538,10 +533,8 @@
     }
 
     .detailed-skills__content {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        max-height: none;
+        display: grid;
+        grid-template-columns: 1fr;
         gap: 1.5rem;
     }
 
@@ -588,10 +581,8 @@
     }
 
     .detailed-skills__content {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        max-height: none;
+        display: grid;
+        grid-template-columns: 1fr;
         gap: 1rem;
     }
 
