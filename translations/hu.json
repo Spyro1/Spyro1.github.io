@@ -2,23 +2,17 @@
   "full_name": "Szenes Márton",
   "title": "#kezdőlap | Szenes Márton",
   "meta_title": "Szenes Márton - Szoftvermérnök és Webfejlesztő",
-  "meta_description": "Minőségi projekteket készítek okos megoldásokkal és kreativitással",
+  "meta_description": "Minőségi projekteket valósítok meg okos megoldásokkal és kreatív gondolkodással",
   "home": "kezdőlap",
   "projects": "projektek",
   "about_me": "rólam",
   "hero_title": "Szoftver- és full-stack webfejlesztő vagyok",
-  "hero_description": "Minőségi projekteket készítek okos megoldásokkal és kreativitással",
-  "contact_me": "Lépj kapcsolatba =>",
+  "hero_description": "Minőségi projekteket valósítok meg okos megoldásokkal és kreatív gondolkodással",
+  "contact_me": "Lépjünk kapcsolatba =>",
   "hero_status": "Tanulj | Alkoss | Emelkedj ki",
   "quote_text": "Az időutazás nehéz. Akárcsak a CSS grid.",
   "quote_author": "Doctor Who",
   "view_all_projects": "Összes megtekintése ~~>",
-  "project_becskassza_name": "BecskasszaSCH 2",
-  "project_becskassza_description": "Okos adminisztrációs és tranzakciós rendszer",
-  "project_sprinkle_name": "Automatikus öntözőrendszer",
-  "project_sprinkle_description": "Házi készítésű automatikus öntözőrendszer kertünkhöz tervezve",
-  "project_luxus_name": "Luxusfinance",
-  "project_luxus_description": "Professzionális weboldal pénzügyi szakértő számára",
   "live_link": "Élő =>",
   "github_link": "Github =>",
   "gitlab_link": "GitLab =>",
@@ -28,10 +22,10 @@
   "other": "Egyéb",
   "frameworks": "Keretrendszerek",
   "about": "rólam",
-  "about_description": "Elhivatott és logikusan gondolkodó informatikus hallgató vagyok. Jelenleg a Budapesti Műszaki és Gazdaságtudományi Egyetem (BME) másodéves hallgatója, ahol mérnökinformatikus BSc diplomáért tanulok.",
+  "about_description": "Elhivatott, logikusan gondolkodó informatikushallgató vagyok. Jelenleg a Budapesti Műszaki és Gazdaságtudományi Egyetem (BME) harmadéves mérnökinformatikus hallgatója vagyok.",
   "view_all_about": "Bővebben ->",
   "contacts": "kapcsolat",
-  "contacts_description": "Ha felkeltette érdeklődését a munkám, kérem, nyugodtan keressen meg.",
+  "contacts_description": "Ha felkeltette az érdeklődését a munkám, keressen bátran.",
   "message_me_here": "Írjon nekem",
   "footer_description": "Szoftvermérnök és full-stack webfejlesztő",
   "links": "Linkek",
@@ -47,41 +41,21 @@
   "currently_studying": "Jelenleg tanulom",
   "bme_computer_science": "BME Mérnökinformatika",
   "biography_title": "Életrajz",
-  "biography_p1": "Elhivatott és logikusan gondolkodó informatikus hallgató vagyok, jelenleg a Budapesti Műszaki és Gazdaságtudományi Egyetem (BME) másodéves hallgatója, ahol mérnökinformatikus BSc diplomáért tanulok.",
-  "biography_p2": "Szenvedélyesen vonzanak a bonyolult problémák, amikkel órákat el tudok tölteni megoldásukkal, melyek problémamegoldó képességem határait feszegetik. Bár ezek a feladatok mentálisan megterhelőek lehetnek, a precíz és tökéletes megoldás megtalálásának érzése hihetetlenül kielégítő.",
-  "biography_p3": "Az egyetemi és projektmunkám során szerzett tapasztalataim fejlesztették készségeimet a szoftvermérnökség, projektmenedzsment, valamint a frontend és backend webfejlesztés területén. Hiszek a folyamatos tanulásban és abban, hogy lépést tartsak a legújabb technológiákkal és legjobb gyakorlatokkal.",
+  "biography_p1": "Elhivatott, logikusan gondolkodó informatikushallgató vagyok, jelenleg a Budapesti Műszaki és Gazdaságtudományi Egyetem (BME) harmadéves mérnökinformatikus hallgatója.",
+  "biography_p2": "Különösen szeretem az összetett problémákat: akár órákon át is képes vagyok dolgozni egy-egy kihíváson, amely próbára teszi a problémamegoldó képességemet. Bár ez mentálisan sokszor megterhelő, egy pontos és elegáns megoldás megtalálása mindig hatalmas élmény.",
+  "biography_p3": "Az egyetemi és projektmunkáim során szerzett tapasztalataim sokat fejlesztették a szoftvermérnöki, projektmenedzsment, valamint a frontend és backend webfejlesztési készségeimet. Hiszek a folyamatos fejlődésben, és fontosnak tartom, hogy naprakész maradjak a legújabb technológiákban és bevált szakmai gyakorlatokban.",
   "education_title": "Tanulmányok",
-  "education_bme_period": "2023 - Jelenlegi",
+  "education_bme_period": "2023 - Napjainkig",
   "education_bme_title": "Mérnökinformatikus BSc",
   "education_bme_institution": "Budapesti Műszaki és Gazdaságtudományi Egyetem (BME)",
-  "education_bme_description": "Mérnökinformatikus szakon tanulok, újfajta szoftver technikák, tervezési folyamatok és full-stack webfejlesztés területére összpontosítva. Jelenleg másodéves vagyok, jó tanulmányi eredményekkel.",
-  "experience_title": "Tapasztalatok és projektek",
-  "exp_becskassza_period": "2024",
-  "exp_becskassza_title": "Vezető Fejlesztő - BecskasszaSCH 2",
-  "exp_becskassza_company": "KSZK BME",
-  "exp_becskassza_description": "Átfogó adminisztrációs és tranzakciókezelő rendszert fejlesztettem Python Flask és Jinja templating használatával. Biztonságos felhasználói azonosítást, pénzügyi tranzakció-követést és adminisztrációs kezelőfelületet valósítottam meg.",
-  "exp_sprinkle_period": "2024",
-  "exp_sprinkle_title": "Hardware fejlesztő - Automatikus öntözőrendszer",
-  "exp_sprinkle_company": "Saját projekt",
-  "exp_sprinkle_description": "Megterveztem és megépítettem egy automatizált kerti öntözőrendszert Arduino mikrokontroller használatával. Valós idejű óraütemezés, TFT kijelzős kezelőfelület és szenzor-alapú öntözésvezérlés funkciókat tartalmaz.",
-  "exp_luxus_period": "2024",
-  "exp_luxus_title": "Webfejlesztő - Luxusfinance",
-  "exp_luxus_company": "Szabadúszó munka",
-  "exp_luxus_description": "Professzionális weboldalt készítettem egy pénzügyi szakértő számára, hangsúlyt fektetve a reszponzív designra és a felhasználói élményre. Modern webes technológiákat használtam és biztosítottam a böngészők közötti kompatibilitást.",
+  "education_bme_description": "Mérnökinformatikus szakon tanulok, újfajta szoftver technikák, tervezési folyamatok és full-stack webfejlesztés területére összpontosítva. Jelenleg harmadéves vagyok, jó tanulmányi eredményekkel.",
+  "experience_title": "Szakmai tapasztalat",
   "detailed_skills_title": "Technikai készségek",
-  "programming_languages": "Programozási Nyelvek",
-  "web_technologies": "Web Technológiák",
-  "frameworks_tools": "Keretrendszerek és Eszközök",
-  "databases_other": "Adatbázisok és Egyéb",
-  "advanced": "Haladó",
-  "intermediate": "Közepes",
-  "beginner": "Kezdő",
-  "project_management": "Projektmenedzsment",
   "personal_title": "Személyes érdeklődési területek",
   "problem_solving": "Problémamegoldás",
-  "problem_solving_desc": "Szeretem az összetett és új ismeretet jelentő kihívásokat és azt, amikor elegáns, valamint precíz megoldásokat találhatok nehéz problémákra.",
+  "problem_solving_desc": "Szeretem az összetett, gondolkodást igénylő kihívásokat, és különösen motivál, amikor nehéz problémákra elegáns, pontos megoldást találok.",
   "continuous_learning": "Folyamatos tanulás",
-  "continuous_learning_desc": "Mindig új technológiákat, keretrendszereket és programozási módszereket fedezek fel, hogy naprakész maradjak a területen.",
+  "continuous_learning_desc": "Folyamatosan keresem az új technológiákat, keretrendszereket és fejlesztési módszereket, hogy szakmailag mindig naprakész maradjak.",
   "hardware_projects": "Hardware projektek",
   "hardware_projects_desc": "Szeretek Arduino és beágyazott rendszerekkel dolgozni, hogy praktikus IoT megoldásokat hozzak létre.",
   "lets_work_together": "Dolgozzunk együtt",
@@ -92,10 +66,242 @@
   "projects_meta_description": "Fedezd fel szoftvermérnöki és webfejlesztési projektjeimet",
   "projects_hero_title": "Projektek",
   "projects_hero_description": "Fedezd fel szoftvermérnöki és webfejlesztési projektjeimet",
-  "project_becskassza_full_description": "Átfogó adminisztrációs és tranzakciókezelő rendszer, amelyet a KSZK BME számára fejlesztettem. Biztonságos felhasználói azonosítás, pénzügyi tranzakció-követés, adminisztrációs kezelőfelület és valós idejű jelentéskészítés jellemzi. Python Flask keretrendszerrel és PostgreSQL adatbázissal készült.",
-  "project_sprinkle_full_description": "Innovatív IoT megoldás automatizált kerti öntözéshez. Valós idejű óraütemezés, TFT kijelzős kezelőfelület egyszerű beállításhoz, talajnedvesség-érzékelők okos öntözési döntésekhez, és időjárás-érzékeny vezérlés jellemzi. Tökéletes a kert optimális állapotának önálló fenntartásához.",
-  "project_luxus_full_description": "Professzionális, reszponzív weboldal pénzügyi szakértő számára. Modern design elvek, zökkenőmentes felhasználói élmény, kapcsolatfelvételi űrlapok háttérfeldolgozással, és SEO optimalizálás jellemzi. A teljesítményre és böngészők közötti kompatibilitásra helyezve a hangsúlyt.",
+  "projects_data": [
+    {
+      "name": "BecskasszaSCH 2",
+      "description": "Okos adminisztrációs és tranzakciós rendszer",
+      "fullDescription": "Átfogó adminisztrációs és tranzakciókezelő rendszer, amelyet a KSZK BME számára fejlesztettem. Biztonságos felhasználói azonosítás, pénzügyi tranzakció-követés, adminisztrációs kezelőfelület és valós idejű jelentéskészítés jellemzi. Python Flask keretrendszerrel és PostgreSQL adatbázissal készült.",
+      "image": "./static/imgs/projects/becskasszasch2.png",
+      "alt": "BecskasszaSCH 2",
+      "tech": [
+        "Python",
+        "Flask",
+        "Jinja",
+        "PostgreSQL",
+        "HTML/CSS"
+      ],
+      "links": [
+        {
+          "type": "live",
+          "url": "https://becskassza.kszk.bme.hu/"
+        },
+        {
+          "type": "gitlab",
+          "url": "https://git.sch.bme.hu/kszk/devteam/becskasszasch-2"
+        }
+      ]
+    },
+    {
+      "name": "Automatikus öntözőrendszer",
+      "description": "Saját tervezésű automata öntözőrendszer a kertünkhöz",
+      "fullDescription": "Innovatív IoT megoldás automatizált kerti öntözéshez. Valós idejű időzítést, TFT kijelzős kezelőfelületet az egyszerű beállításhoz, talajnedvesség-érzékelőket az okos öntözési döntésekhez, valamint időjárásfüggő vezérlést valósítottam meg benne. Ideális a kert optimális állapotának automatikus fenntartásához.",
+      "image": "./static/imgs/projects/sprinkle-system-circuit.png",
+      "alt": "Öntözőrendszer kapcsolási rajz",
+      "tech": [
+        "Arduino",
+        "C++",
+        "RTC",
+        "TFT Kijelző",
+        "Szenzorok"
+      ],
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/Spyro1/SprinkleSystem"
+        }
+      ]
+    },
+    {
+      "name": "Luxusfinance",
+      "description": "Professzionális weboldal pénzügyi szakértő számára",
+      "fullDescription": "Professzionális, reszponzív weboldalt készítettem egy pénzügyi szakértő számára. A projektet modern design, gördülékeny felhasználói élmény, háttérfeldolgozással támogatott kapcsolatfelvételi űrlapok és SEO-optimalizálás jellemzi, külön figyelemmel a teljesítményre és a böngészők közötti kompatibilitásra.",
+      "image": "./static/imgs/projects/luxusfinance.png",
+      "alt": "Luxusfinance",
+      "tech": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "Bootstrap",
+        "PHP"
+      ],
+      "links": [
+        {
+          "type": "live",
+          "url": "https://luxusfinance.hu"
+        }
+      ]
+    },
+    {
+      "name": "Levlista-service",
+      "description": "Python FastAPI backend levelezőlista-kezeléshez",
+      "fullDescription": "Python és FastAPI alapú backend szolgáltatás levelezőlisták és kapcsolódó folyamatok kezelésére. A projektet átlátható API-felépítés, karbantartható kódszerkezet és gyakorlati felhasználásra tervezett működés jellemzi.",
+      "image": "./static/imgs/levlista-service.png",
+      "alt": "Levlista-service",
+      "tech": [
+        "Python",
+        "FastAPI",
+        "Google Groups API",
+        "Mikroszolgáltatás"
+      ],
+      "links": [
+        {
+          "type": "gitlab",
+          "url": "https://git.sch.bme.hu/kszk/adminsch-ng/services/levlista-service"
+        },
+        {
+          "type": "live",
+          "url": "https://admin.sch.bme.hu/"
+        }
+      ]
+    },
+    {
+      "name": "BeléptetősCH",
+      "description": "Frontend fejlesztés egy beléptető rendszerhez",
+      "fullDescription": "A BeléptetősCH frontend fejlesztése 2026-ban, ahol az átlátható felületekre, az egységes felhasználói élményre és a reszponzív kialakításra helyeztem a hangsúlyt.",
+      "image": "./static/imgs/beleptetosch.png",
+      "alt": "BeléptetősCH",
+      "tech": [
+        "Frontend",
+        "React",
+        "Material UI"
+      ],
+      "links": [
+        {
+          "type": "gitlab",
+          "url": "https://git.sch.bme.hu/belepteto-sch-team/frontend"
+        },
+        {
+          "type": "live",
+          "url": "https://belepteto.sch.bme.hu/"
+        }
+      ]
+    }
+  ],
+  "about_experience_data": [
+    {
+      "period": "2025 - jelenleg",
+      "title": "Full-stack szoftvermérnök",
+      "company": "Evosoft Hungary Kft.",
+      "description": "Nagy, mikroszolgáltatás-alapú projekteken dolgozom full-stack fejlesztőként. Fő feladataim közé tartozik a C# .NET alapú backend szolgáltatások fejlesztése és karbantartása, új funkciók készítése, hibajavítás és a meglévő kód optimalizálása. Emellett a felhasználói felületek fejlesztésén is dolgozom, hogy jobb felhasználói élményt nyújtsunk webes alkalmazásainkban.",
+      "tech": [
+        "Full-stack fejlesztés",
+        "C# .NET",
+        "Angular",
+        "Scrum"
+      ]
+    },
+    {
+      "period": "2024 - jelenleg",
+      "title": "Fejlesztő csapattag és korábbi DevTeam vezető",
+      "company": "KSZK BME",
+      "description": "Korábbi Developer Team Leaderként a kollégiumi IT-szervezet belső szolgáltatásainak és közösségi platformjainak fejlesztési folyamatait koordináltam, beleértve a technikai architektúra-tervezést, a csapatmunkát és a projektmenedzsmentet. Jelenleg fejlesztő csapattagként dolgozom különböző projekteken, például a BecskasszaSCH 2 rendszeren, a BeléptetősCH frontendjén és a Levlista-service backendjén.",
+      "tech": [
+        "Csapatvezetés",
+        "Projektmenedzsment",
+        "Python FastAPI",
+        "React TS"
+      ]
+    }
+  ],
   "interested_in_collaboration": "Érdekel az együttműködés?",
   "projects_contact_description": "Mindig szívesen vállalok új projekteket és kihívásokat. Beszéljük meg az ötleteit!",
-  "old_portfolio": "Régi Portfólió megtekintése"
+  "old_portfolio": "Régi Portfólió megtekintése",
+  "about_skills_data": [
+    {
+      "title": "Programozási nyelvek",
+      "items": [
+        {
+          "name": "Java",
+          "level": "Haladó"
+        },
+        {
+          "name": "Python",
+          "level": "Haladó"
+        },
+        {
+          "name": "C++",
+          "level": "Közepes"
+        },
+        {
+          "name": "C# .NET",
+          "level": "Haladó"
+        },
+        {
+          "name": "Kotlin",
+          "level": "Kezdő"
+        }
+      ]
+    },
+    {
+      "title": "Webes technológiák",
+      "items": [
+        {
+          "name": "HTML5",
+          "level": "Haladó"
+        },
+        {
+          "name": "CSS3",
+          "level": "Haladó"
+        },
+        {
+          "name": "JavaScript",
+          "level": "Közepes"
+        },
+        {
+          "name": "Bootstrap",
+          "level": "Haladó"
+        },
+        {
+          "name": "Tailwind CSS",
+          "level": "Haladó"
+        }
+      ]
+    },
+    {
+      "title": "Keretrendszerek és eszközök",
+      "items": [
+        {
+          "name": "Flask",
+          "level": "Haladó"
+        },
+        {
+          "name": "FastAPI",
+          "level": "Haladó"
+        },
+        {
+          "name": "React",
+          "level": "Haladó"
+        },
+        {
+          "name": "Git",
+          "level": "Közepes"
+        },
+        {
+          "name": "Jinja2",
+          "level": "Haladó"
+        }
+      ]
+    },
+    {
+      "title": "Adatbázisok és egyéb",
+      "items": [
+        {
+          "name": "SQL",
+          "level": "Közepes"
+        },
+        {
+          "name": "PostgreSQL",
+          "level": "Közepes"
+        },
+        {
+          "name": "MSSQL",
+          "level": "Közepes"
+        },
+        {
+          "name": "Projektmenedzsment",
+          "level": "Közepes"
+        }
+      ]
+    }
+  ]
 }
