@@ -71,7 +71,7 @@
       "name": "BecskasszaSCH 2",
       "description": "Smart Admin & Transaction System",
       "fullDescription": "A comprehensive admin and transaction management system developed for KSZK BME. Features secure user authentication, financial transaction tracking, administrative dashboard, and real-time reporting capabilities. Built with Python Flask framework and PostgreSQL database.",
-      "image": "./static/imgs/projects/becskasszasch2.png",
+      "image": "./static/imgs/projects/becskasszasch2_2_main.png",
       "alt": "BecskasszaSCH 2",
       "tech": [
         "Python",

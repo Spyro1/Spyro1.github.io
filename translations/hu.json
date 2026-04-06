@@ -71,7 +71,7 @@
       "name": "BecskasszaSCH 2",
       "description": "Okos adminisztrációs és tranzakciós rendszer",
       "fullDescription": "Átfogó adminisztrációs és tranzakciókezelő rendszer, amelyet a KSZK BME számára fejlesztettem. Biztonságos felhasználói azonosítás, pénzügyi tranzakció-követés, adminisztrációs kezelőfelület és valós idejű jelentéskészítés jellemzi. Python Flask keretrendszerrel és PostgreSQL adatbázissal készült.",
-      "image": "./static/imgs/projects/becskasszasch2.png",
+      "image": "./static/imgs/projects/becskasszasch2_2_main.png",
       "alt": "BecskasszaSCH 2",
       "tech": [
         "Python",
@@ -135,7 +135,7 @@
       "name": "Levlista-service",
       "description": "Python FastAPI backend levelezőlista-kezeléshez",
       "fullDescription": "Python és FastAPI alapú backend szolgáltatás levelezőlisták és kapcsolódó folyamatok kezelésére. A projektet átlátható API-felépítés, karbantartható kódszerkezet és gyakorlati felhasználásra tervezett működés jellemzi.",
-      "image": "./static/imgs/levlista-service.png",
+      "image": "./static/imgs/projects/levlista-service.png",
       "alt": "Levlista-service",
       "tech": [
         "Python",
@@ -158,7 +158,7 @@
       "name": "BeléptetősCH",
       "description": "Frontend fejlesztés egy beléptető rendszerhez",
       "fullDescription": "A BeléptetősCH frontend fejlesztése 2026-ban, ahol az átlátható felületekre, az egységes felhasználói élményre és a reszponzív kialakításra helyeztem a hangsúlyt.",
-      "image": "./static/imgs/beleptetosch.png",
+      "image": "./static/imgs/projects/beleptetosch.png",
       "alt": "BeléptetősCH",
       "tech": [
         "Frontend",
