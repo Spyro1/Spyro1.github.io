@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+/* Design tokens carried over from the original spyro1.github.io site. */
+@theme {
+  --font-sans: "Fira Code", ui-monospace, monospace;
+  --font-mono: "Fira Code", ui-monospace, monospace;
+
+  --color-primary: hsl(244 60% 65%);
+  --color-primary-op: hsl(287 60% 65% / 0.1);
+  --color-gray: hsl(219 14% 71%);
+  --color-gray-op: hsl(219 14% 71% / 0.1);
+  --color-background: hsl(218 14% 11%);
+  --color-white: hsl(0 0% 100%);
+}
+
+html {
+  color-scheme: dark;
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+body {
+  @apply bg-background font-sans text-white antialiased;
+}
+
+::selection {
+  @apply bg-primary text-white;
+}
+
+@layer components {
+  /* "#heading ———" section title. */
+  .heading {
+    @apply relative inline-block w-fit text-[32px] font-medium;
+  }
+
+  .heading::before {
+    content: "#";
+    @apply text-primary;
+  }
+
+  .heading::after {
+    content: "";
+    @apply absolute top-1/2 left-full ml-4 hidden h-px w-[10vw] max-w-60 bg-primary;
+  }
+
+  @media (width >= 40rem) {
+    .heading::after {
+      display: block;
+    }
+  }
+
+  /* Small square marker used in the hero status box and timelines. */
+  .square-marker {
+    @apply inline-block aspect-square w-4 shrink-0 border border-primary bg-primary-op;
+  }
+}

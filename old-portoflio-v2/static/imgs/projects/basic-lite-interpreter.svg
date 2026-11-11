@@ -1,0 +1,39 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1E1E2E;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#262637;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#bg)" rx="8"/>
+  
+  <!-- Terminal window -->
+  <rect x="20" y="20" width="360" height="260" fill="#282A2E" rx="4" stroke="#C778DD" stroke-width="2"/>
+  
+  <!-- Terminal header -->
+  <rect x="20" y="20" width="360" height="30" fill="#373B41" rx="4"/>
+  <circle cx="35" cy="35" r="4" fill="#FF5F56"/>
+  <circle cx="50" cy="35" r="4" fill="#FFBD2E"/>
+  <circle cx="65" cy="35" r="4" fill="#27CA3F"/>
+  
+  <!-- Code lines -->
+  <text x="35" y="75" font-family="Monaco, Consolas, monospace" font-size="12" fill="#C778DD">BASIC-lite Interpreter</text>
+  <text x="35" y="95" font-family="Monaco, Consolas, monospace" font-size="10" fill="#ABB2BF">10 LET A = 5</text>
+  <text x="35" y="110" font-family="Monaco, Consolas, monospace" font-size="10" fill="#ABB2BF">20 LET B = 10</text>
+  <text x="35" y="125" font-family="Monaco, Consolas, monospace" font-size="10" fill="#ABB2BF">30 LET C = A + B</text>
+  <text x="35" y="140" font-family="Monaco, Consolas, monospace" font-size="10" fill="#ABB2BF">40 PRINT "Result: "</text>
+  <text x="35" y="155" font-family="Monaco, Consolas, monospace" font-size="10" fill="#ABB2BF">50 PRINT C</text>
+  <text x="35" y="170" font-family="Monaco, Consolas, monospace" font-size="10" fill="#ABB2BF">60 IF C > 10</text>
+  <text x="35" y="185" font-family="Monaco, Consolas, monospace" font-size="10" fill="#ABB2BF">70 GOTO 90</text>
+  <text x="35" y="200" font-family="Monaco, Consolas, monospace" font-size="10" fill="#ABB2BF">80 PRINT "Small"</text>
+  <text x="35" y="215" font-family="Monaco, Consolas, monospace" font-size="10" fill="#ABB2BF">90 PRINT "Large"</text>
+  
+  <!-- Output -->
+  <text x="35" y="240" font-family="Monaco, Consolas, monospace" font-size="10" fill="#61DAFB">Result: 15</text>
+  <text x="35" y="255" font-family="Monaco, Consolas, monospace" font-size="10" fill="#61DAFB">Large</text>
+  
+  <!-- Cursor -->
+  <rect x="35" y="268" width="8" height="12" fill="#C778DD"/>
+</svg>
