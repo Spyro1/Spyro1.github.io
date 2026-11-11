@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { data } from "react-router";
 import type { Route } from "./+types/cv";
 import { About } from "~/components/cv/about";
@@ -39,6 +40,11 @@ export const links: Route.LinksFunction = () =>
   locales.map((locale) => ({ rel: "alternate", hrefLang: locale, href: `/${locale}` }));
 
 export default function Cv({ loaderData }: Route.ComponentProps) {
+  // Remember the choice so `/` redirects here next time.
+  useEffect(() => {
+    document.cookie = localeCookie(loaderData.lang);
+  }, [loaderData.lang]);
+
   return (
     <ContentProvider lang={loaderData.lang}>
       <PageLayout>

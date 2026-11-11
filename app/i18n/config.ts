@@ -6,22 +6,20 @@ export function isLocale(value: unknown): value is Locale {
   return typeof value === "string" && (locales as readonly string[]).includes(value);
 }
 
-/** Preferred locale from the `lang` cookie, then `Accept-Language`, then the default. */
-export function getPreferredLocale(request: Request): Locale {
-  const cookie = request.headers.get("Cookie") ?? "";
-  const fromCookie = cookie.match(/(?:^|;\s*)lang=([^;]+)/)?.[1];
+/**
+ * Preferred locale in the browser: the `lang` cookie, then the browser's
+ * language list (`navigator.languages`), then the default.
+ */
+export function getBrowserLocale(): Locale {
+  const fromCookie = document.cookie.match(/(?:^|;\s*)lang=([^;]+)/)?.[1];
   if (isLocale(fromCookie)) return fromCookie;
 
-  const accepted = (request.headers.get("Accept-Language") ?? "")
-    .split(",")
-    .map((part) => {
-      const [tag, q] = part.trim().split(";q=");
-      return { lang: tag.split("-")[0].toLowerCase(), q: q ? Number(q) : 1 };
-    })
-    .sort((a, b) => b.q - a.q)
-    .find((entry) => isLocale(entry.lang));
+  const languages = navigator.languages?.length ? navigator.languages : [navigator.language];
+  const preferred = languages
+    .map((tag) => tag?.split("-")[0].toLowerCase())
+    .find((lang) => isLocale(lang));
 
-  return isLocale(accepted?.lang) ? accepted.lang : defaultLocale;
+  return isLocale(preferred) ? preferred : defaultLocale;
 }
 
 export function localeCookie(lang: Locale) {
